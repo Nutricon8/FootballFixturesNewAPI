@@ -1,4 +1,4 @@
-package com.codesui.footballfixtures.resources
+package com.codesui.footballfixtures.widgets
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -17,8 +17,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.codesui.footballfixtures.R
@@ -40,7 +42,7 @@ fun NoInternetDialog(function:() -> Unit) {
                 .size(150.dp)
                 .align(Alignment.CenterHorizontally),
             contentScale = ContentScale.Fit,
-            colorFilter = androidx.compose.ui.graphics.ColorFilter.tint(Color(0xFFB35512)) // Replace with the appropriate color
+            colorFilter = ColorFilter.tint(Color(0xFFB35512)) // Replace with the appropriate color
         )
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -50,7 +52,7 @@ fun NoInternetDialog(function:() -> Unit) {
             style = MaterialTheme.typography.headlineMedium.copy(
                 fontSize = 40.sp,
                 color = Color(0xFF2E7D32), // Replace with the appropriate dark green color
-                fontWeight = androidx.compose.ui.text.font.FontWeight.Bold
+                fontWeight = FontWeight.Bold
             ),
             modifier = Modifier.align(Alignment.CenterHorizontally)
         )

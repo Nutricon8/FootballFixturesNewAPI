@@ -10,6 +10,7 @@ import com.codesui.footballfixtures.screens.TermsScreen
 import com.codesui.footballfixtures.screens.fixture.FixtureScreen
 import com.codesui.footballfixtures.screens.league.LeagueDetails
 import com.codesui.footballfixtures.screens.player.PlayerScreen
+import com.codesui.footballfixtures.widgets.NavDrawer
 
 @Composable
 fun AppNavigation(runAds :() -> Unit, openAds: () -> Unit, rewardedAds : () -> Unit) {

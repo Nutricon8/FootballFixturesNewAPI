@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.codesui.footballfixtures.R
 import com.codesui.footballfixtures.resources.Routes
-import com.codesui.footballfixtures.resources.Topbar
+import com.codesui.footballfixtures.widgets.Topbar
 import com.codesui.footballfixtures.resources.UrlManager
 import com.codesui.powerkingtips.ads.AdmobBanner
 import com.codesui.powerkingtips.resources.RateManager

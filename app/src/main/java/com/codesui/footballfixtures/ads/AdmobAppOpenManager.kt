@@ -22,7 +22,7 @@ public class AppOpenAdManager {
             val request = AdRequest.Builder().build()
             AppOpenAd.load(
                 context, context.getString(R.string.App_Open_Manager), request,
-                AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT,
+                //AppOpenAd.APP_OPEN_AD_ORIENTATION_PORTRAIT,
                 object : AppOpenAd.AppOpenAdLoadCallback() {
                     override fun onAdLoaded(ad: AppOpenAd) {
                         appOpenAd = ad

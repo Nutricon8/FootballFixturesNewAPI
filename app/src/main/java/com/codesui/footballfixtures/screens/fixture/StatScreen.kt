@@ -24,9 +24,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.codesui.footballfixtures.resources.EmptyScreen
-import com.codesui.footballfixtures.resources.ErrorDialog
-import com.codesui.footballfixtures.resources.NoInternetDialog
+import com.codesui.footballfixtures.widgets.EmptyScreen
+import com.codesui.footballfixtures.widgets.ErrorDialog
+import com.codesui.footballfixtures.widgets.NoInternetDialog
 import com.codesui.footballfixtures.resources.isInternetAvailable
 import com.google.gson.JsonArray
 import com.google.gson.JsonObject
