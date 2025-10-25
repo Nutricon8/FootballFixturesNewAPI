@@ -28,10 +28,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.codesui.footballfixtures.R
-import com.codesui.footballfixtures.resources.Topbar
+import com.codesui.footballfixtures.widgets.Topbar
 import com.codesui.powerkingtips.ads.AdmobBanner
-import com.farimarwat.composenativeadmob.nativead.BannerAdAdmobMedium
-import com.farimarwat.composenativeadmob.nativead.BannerAdAdmobSmall
 import com.farimarwat.composenativeadmob.nativead.rememberNativeAdState
 
 @Composable
@@ -69,7 +67,7 @@ fun TermsScreen (navController: NavController, runAds :() -> Unit){
                         "2. Personal Use\n" +
                         " The app is for personal, non-commercial use only. You agree not to modify, distribute, or reproduce any content without permission."
             )
-            BannerAdAdmobSmall(loadedAd = adState)
+            //BannerAdAdmobSmall(loadedAd = adState)
             CardItem(
                 modifier = Modifier,
                 title = "3. Content and Streaming",
@@ -100,7 +98,7 @@ fun TermsScreen (navController: NavController, runAds :() -> Unit){
                         "Attempt to hack, disrupt, or interfere with the app’s functionality or security.\n"
             )
             Spacer(modifier = Modifier.fillMaxWidth())
-            BannerAdAdmobMedium(loadedAd = adState)
+            //BannerAdAdmobMedium(loadedAd = adState)
             CardItem(
                 modifier = Modifier,
                 title = "6. Intellectual Property",

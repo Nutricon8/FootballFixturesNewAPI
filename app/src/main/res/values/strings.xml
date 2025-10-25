@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">PulseScore</string>
+    <string name="app_name">Football Fixtures NewAPI</string>
     <string name="terms_of_service">Terms Of Service</string>
     <!--Ad Unit -->
     <string name="App_Id">ca-app-pub-3940256099942544~3347511000</string>
@@ -11,5 +11,5 @@
     //urls
     <string name="more_apps_url">https://play.google.com/store/apps/dev?id=6534315187626675600</string>
     //api
-    <string name="api_key">c8a9e1036751bfff815497ea08db1561e0ac9514bb4a46f4862f1460db1f2ce3</string>
+    <string name="api_key">93540a1b3aed8ef65ded324be26d248768975380049fe455c69c0d09b97a0f09</string>
 </resources>

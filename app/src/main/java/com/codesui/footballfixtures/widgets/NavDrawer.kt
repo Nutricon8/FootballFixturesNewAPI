@@ -1,4 +1,4 @@
-package com.codesui.footballfixtures.resources
+package com.codesui.footballfixtures.widgets
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -21,6 +21,8 @@ import androidx.compose.material.icons.rounded.List
 import androidx.compose.material.icons.rounded.MoreVert
 import androidx.compose.material.icons.rounded.Share
 import androidx.compose.material.icons.rounded.Star
+
+
 import androidx.compose.material3.Divider
 import androidx.compose.material3.DrawerValue
 import androidx.compose.material3.Icon
@@ -50,6 +52,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.codesui.footballfixtures.R
+import com.codesui.footballfixtures.resources.Routes
+import com.codesui.footballfixtures.resources.UrlManager
 import com.codesui.footballfixtures.screens.MainScreen
 import com.codesui.powerkingtips.resources.RateManager
 import com.codesui.powerkingtips.resources.ShareManager

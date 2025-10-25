@@ -15,12 +15,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
 import com.codesui.footballfixtures.R
 import com.codesui.footballfixtures.Requests.RetrofitClient
-import com.codesui.footballfixtures.resources.ErrorDialog
-import com.codesui.footballfixtures.resources.IndeterminateCircularIndicator
-import com.codesui.footballfixtures.resources.NoInternetDialog
+import com.codesui.footballfixtures.widgets.ErrorDialog
+import com.codesui.footballfixtures.widgets.IndeterminateCircularIndicator
+import com.codesui.footballfixtures.widgets.NoInternetDialog
 import com.codesui.footballfixtures.resources.isInternetAvailable
 import com.codesui.footballfixtures.screens.league.LeagueCard
-import com.codesui.powerkingtips.ads.AdmobBanner
 import com.google.gson.JsonObject
 
 @Composable
