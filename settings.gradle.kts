@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "FootballFixtures"
+rootProject.name = "FootballFixturesNewAPI"
 include(":app")
  
