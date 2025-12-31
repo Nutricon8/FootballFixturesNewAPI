@@ -1,4 +1,4 @@
-package com.codesui.footballfixtures.screens.fixture
+package com.codesui.footballfixtures.widgets
 
 
 import androidx.compose.foundation.border
@@ -40,7 +40,7 @@ import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.codesui.footballfixtures.R
-import com.codesui.footballfixtures.resources.Routes
+import com.codesui.footballfixtures.navigation.Routes
 import com.google.gson.JsonObject
 
 @Composable

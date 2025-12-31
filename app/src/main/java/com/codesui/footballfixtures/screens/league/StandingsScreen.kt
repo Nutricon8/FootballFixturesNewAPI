@@ -1,6 +1,5 @@
 package com.codesui.footballfixtures.screens.league
 
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -38,12 +37,12 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.codesui.footballfixtures.R
-import com.codesui.footballfixtures.Requests.RetrofitClient
-import com.codesui.footballfixtures.resources.EmptyScreen
-import com.codesui.footballfixtures.resources.ErrorDialog
-import com.codesui.footballfixtures.resources.IndeterminateCircularIndicator
-import com.codesui.footballfixtures.resources.NoInternetDialog
-import com.codesui.footballfixtures.resources.isInternetAvailable
+import com.codesui.footballfixtures.api.Requests.RetrofitClient
+import com.codesui.footballfixtures.widgets.EmptyScreen
+import com.codesui.footballfixtures.widgets.ErrorDialog
+import com.codesui.footballfixtures.widgets.IndeterminateCircularIndicator
+import com.codesui.footballfixtures.widgets.NoInternetDialog
+import com.codesui.footballfixtures.widgets.isInternetAvailable
 import com.google.gson.JsonObject
 
 @Composable

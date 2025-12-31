@@ -1,4 +1,4 @@
-package com.codesui.footballfixtures.resources
+package com.codesui.footballfixtures.navigation
 
 object Routes {
     const val startScreen = "start_screen"

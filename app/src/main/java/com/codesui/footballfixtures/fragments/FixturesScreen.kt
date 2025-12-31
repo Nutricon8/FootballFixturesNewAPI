@@ -22,12 +22,11 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.codesui.footballfixtures.R
-import com.codesui.footballfixtures.Requests.RetrofitClient
-import com.codesui.footballfixtures.resources.IndeterminateCircularIndicator
-import com.codesui.footballfixtures.resources.NoInternetDialog
-import com.codesui.footballfixtures.resources.isInternetAvailable
-import com.codesui.footballfixtures.screens.fixture.Fixture
-import com.codesui.powerkingtips.ads.AdmobBanner
+import com.codesui.footballfixtures.api.Requests.RetrofitClient
+import com.codesui.footballfixtures.widgets.IndeterminateCircularIndicator
+import com.codesui.footballfixtures.widgets.NoInternetDialog
+import com.codesui.footballfixtures.widgets.isInternetAvailable
+import com.codesui.footballfixtures.widgets.Fixture
 import com.google.gson.JsonObject
 import java.text.SimpleDateFormat
 import java.util.Date

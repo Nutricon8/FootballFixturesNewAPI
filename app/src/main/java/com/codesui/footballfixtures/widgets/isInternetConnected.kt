@@ -1,4 +1,4 @@
-package com.codesui.footballfixtures.resources
+package com.codesui.footballfixtures.widgets
 
 import android.content.Context
 import android.net.ConnectivityManager

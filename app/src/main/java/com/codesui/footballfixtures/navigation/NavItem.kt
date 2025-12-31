@@ -1,4 +1,4 @@
-package com.codesui.footballfixtures.resources
+package com.codesui.footballfixtures.navigation
 
 import androidx.compose.ui.graphics.vector.ImageVector
 

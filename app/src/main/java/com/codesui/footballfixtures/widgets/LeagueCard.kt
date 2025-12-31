@@ -1,4 +1,4 @@
-package com.codesui.footballfixtures.screens.league
+package com.codesui.footballfixtures.widgets
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.isSystemInDarkTheme
@@ -34,11 +34,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import coil.compose.AsyncImage
 import com.codesui.footballfixtures.R
-import com.codesui.footballfixtures.resources.Routes
+import com.codesui.footballfixtures.navigation.Routes
 import com.google.gson.JsonObject
 
 @Composable

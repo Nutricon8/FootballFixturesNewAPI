@@ -37,7 +37,7 @@ import com.codesui.footballfixtures.fragments.HomeScreen
 import com.codesui.footballfixtures.fragments.LeaguesScreen
 import com.codesui.footballfixtures.fragments.LivescoresScreen
 import com.codesui.footballfixtures.fragments.ResultsScreen
-import com.codesui.footballfixtures.resources.NavItem
+import com.codesui.footballfixtures.navigation.NavItem
 import com.codesui.footballfixtures.resources.PreferencesManager
 import com.codesui.powerkingtips.ads.AdmobBanner
 import kotlinx.coroutines.CoroutineScope

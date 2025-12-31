@@ -28,11 +28,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.codesui.footballfixtures.R
-import com.codesui.footballfixtures.Requests.RetrofitClient
-import com.codesui.footballfixtures.resources.FeaturedLive
-import com.codesui.footballfixtures.screens.league.FeaturedLeague
-import com.codesui.footballfixtures.screens.player.PlayerCard
-import com.codesui.powerkingtips.ads.AdmobBanner
+import com.codesui.footballfixtures.api.Requests.RetrofitClient
+import com.codesui.footballfixtures.widgets.FeaturedLive
+import com.codesui.footballfixtures.widgets.FeaturedLeague
+import com.codesui.footballfixtures.widgets.PlayerCard
 import com.google.gson.JsonObject
 import java.text.SimpleDateFormat
 import java.util.Date

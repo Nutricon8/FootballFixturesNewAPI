@@ -3,7 +3,6 @@ package com.codesui.footballfixtures.screens.league
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.pager.HorizontalPager
@@ -25,7 +24,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.navigation.NavController
 import com.codesui.footballfixtures.resources.PreferencesManager
-import com.codesui.footballfixtures.resources.Topbar
+import com.codesui.footballfixtures.widgets.Topbar
 import com.codesui.powerkingtips.ads.AdmobBanner
 
 @OptIn(ExperimentalFoundationApi::class)

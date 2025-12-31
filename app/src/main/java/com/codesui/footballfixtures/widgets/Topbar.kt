@@ -1,4 +1,4 @@
-package com.codesui.footballfixtures.resources
+package com.codesui.footballfixtures.widgets
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box

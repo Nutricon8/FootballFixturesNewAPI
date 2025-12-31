@@ -1,4 +1,4 @@
-package com.codesui.footballfixtures.Requests
+package com.codesui.footballfixtures.api.Requests
 
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder

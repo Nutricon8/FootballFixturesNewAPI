@@ -1,15 +1,17 @@
-package com.codesui.footballfixtures.resources
+package com.codesui.footballfixtures.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.codesui.footballfixtures.navigation.Routes
 import com.codesui.footballfixtures.screens.AboutScreen
 import com.codesui.footballfixtures.screens.StartScreen
 import com.codesui.footballfixtures.screens.TermsScreen
 import com.codesui.footballfixtures.screens.fixture.FixtureScreen
 import com.codesui.footballfixtures.screens.league.LeagueDetails
 import com.codesui.footballfixtures.screens.player.PlayerScreen
+import com.codesui.footballfixtures.widgets.NavDrawer
 
 @Composable
 fun AppNavigation(runAds :() -> Unit, openAds: () -> Unit, rewardedAds : () -> Unit) {

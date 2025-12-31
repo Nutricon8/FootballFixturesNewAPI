@@ -27,7 +27,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.codesui.footballfixtures.R
-import com.codesui.footballfixtures.resources.Routes
+import com.codesui.footballfixtures.navigation.Routes
 import com.codesui.powerkingtips.ads.AdmobBanner
 
 @Composable

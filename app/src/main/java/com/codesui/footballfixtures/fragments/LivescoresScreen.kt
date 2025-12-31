@@ -15,13 +15,12 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavController
 import com.codesui.footballfixtures.R
-import com.codesui.footballfixtures.Requests.RetrofitClient
-import com.codesui.footballfixtures.resources.ErrorDialog
-import com.codesui.footballfixtures.resources.IndeterminateCircularIndicator
-import com.codesui.footballfixtures.resources.LivescoreCard
-import com.codesui.footballfixtures.resources.NoInternetDialog
-import com.codesui.footballfixtures.resources.isInternetAvailable
-import com.codesui.powerkingtips.ads.AdmobBanner
+import com.codesui.footballfixtures.api.Requests.RetrofitClient
+import com.codesui.footballfixtures.widgets.ErrorDialog
+import com.codesui.footballfixtures.widgets.IndeterminateCircularIndicator
+import com.codesui.footballfixtures.widgets.LivescoreCard
+import com.codesui.footballfixtures.widgets.NoInternetDialog
+import com.codesui.footballfixtures.widgets.isInternetAvailable
 import com.google.gson.JsonObject
 import java.text.SimpleDateFormat
 import java.util.Date
@@ -37,7 +36,8 @@ fun LivescoresScreen(navController: NavController, runAds: () -> Unit, rewardedA
         LaunchedEffect(isButtonClicked) {
             if (isButtonClicked) {
                 try {
-                    val response = RetrofitClient.apiService.getFixtures(params)
+                    val response = RetrofitClient.apiService.
+                    getFixtures(params)
                     fixtures.value = response.map { it.asJsonObject }
                 } catch (e: Exception) {
                     error.value = e.message

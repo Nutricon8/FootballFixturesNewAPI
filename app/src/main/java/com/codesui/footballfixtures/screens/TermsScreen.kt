@@ -28,7 +28,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.codesui.footballfixtures.R
-import com.codesui.footballfixtures.resources.Topbar
+import com.codesui.footballfixtures.widgets.Topbar
 import com.codesui.powerkingtips.ads.AdmobBanner
 import com.farimarwat.composenativeadmob.nativead.BannerAdAdmobMedium
 import com.farimarwat.composenativeadmob.nativead.BannerAdAdmobSmall

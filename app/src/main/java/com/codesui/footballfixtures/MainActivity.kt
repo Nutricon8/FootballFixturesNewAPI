@@ -9,7 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
-import com.codesui.footballfixtures.resources.AppNavigation
+import com.codesui.footballfixtures.navigation.AppNavigation
 import com.codesui.footballfixtures.ui.theme.FootballFixturesTheme
 import com.codesui.powerkingtips.ads.AppOpenAdManager
 import com.codesui.powerkingtips.ads.RewardedInterstitialManager

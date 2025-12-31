@@ -29,9 +29,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
-import com.codesui.footballfixtures.resources.EmptyScreen
-import com.codesui.footballfixtures.resources.Routes
-import com.codesui.footballfixtures.screens.player.PlayerCard
+import com.codesui.footballfixtures.widgets.EmptyScreen
+import com.codesui.footballfixtures.navigation.Routes
 import com.google.gson.JsonObject
 
 @Composable
