@@ -8,7 +8,7 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.codesui.footballfixtures"
+        applicationId = "com.codesui.football"
         minSdk = 24
         targetSdk = 34
         versionCode = 3
