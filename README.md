@@ -11,8 +11,8 @@
 
 <div class="responsive-images">
 <img  width="200px" alt="kibet"  src="./app/src/main/res/drawable/screen1.jpg" />
-<img  width="200px" alt="kibet"  src="./app/src/main/res/drawable/screen2.jpg" />
-  <img  width="200px" alt="kibet"  src="./app/src/main/res/drawable/screen3.jpg" />
+<img  width="200px" alt="kibet"  src="./app/src/main/res/drawable/screen2.png" />
+  <img  width="200px" alt="kibet"  src="./app/src/main/res/drawable/screen3.png" />
   <img  width="200px" alt="kibet"  src="./app/src/main/res/drawable/screen4.jpg" />
 <img  width="200px" alt="kibet"  src="./app/src/main/res/drawable/screen5.jpg" />
 <img  width="200px" alt="kibet"  src="./app/src/main/res/drawable/screen6.jpg" />
